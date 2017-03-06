@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Piano Notes</string>
+
+    <!--MainActivity-->
+    <string name="enter_the_notes">Enter the notes</string>
+    <string name="playing">Playing</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_notes">Invalid string</string>
+    <string name="empty">Empty</string>
+
+    <!--END-->
+
+</resources>

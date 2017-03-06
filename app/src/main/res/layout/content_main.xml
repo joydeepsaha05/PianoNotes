@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="music.saha.joydeep.pianonotes.ui.activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/edit_text_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_the_notes"
+            android:inputType="textVisiblePassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>
